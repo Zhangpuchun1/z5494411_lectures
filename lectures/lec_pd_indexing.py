@@ -337,12 +337,12 @@ x = df.iloc[[0,1]]
 # 2.2.3 Dataframe.iloc: Selection using slices
 
 # Slices work like ser.iloc
-x  = '?'
+# x  = df.iloc[0:3]
 #print(x)
 
 # x--> empty DF
-x  = '?'
-#print(x)
+# x = df.iloc[100:102]
+# print(x)
 
 
 # Slices can be open ended
