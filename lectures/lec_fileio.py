@@ -21,7 +21,7 @@ fobj  = open(SRCFILE, 'r')
 
 # We can get the entire content of the file by calling the method `.read()`,
 # without parameters:
-cnts  = open(SRCFILE, 'r'
+cnts  = open(SRCFILE, 'r')
 
 # The variable `cnts` will be a string containing the full contents of the
 # file. This will print the first 20 characters:
