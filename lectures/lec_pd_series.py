@@ -70,15 +70,16 @@ ary  = ser.array
 # Like any instance, you can get its type (i.e., the class used to create the
 # instance)
 #print(type(ser.array))
-#同时获取数据和索引（即日期和价格）
-#考虑使用其他方法，例如将 Series 转换为一个 Python 字典，或者直接访问索引和数据属性
-# 转换为字典
+#Get both data and indexes (i.e., dates and prices)
+
+# Consider using other methods, such as converting Series to a Python dictionary, or accessing indexes and data attributes directly
+# Convert to dictionary
 # data_dict = ser.to_dict()
 # print(data_dict)
 
-# 或者分别访问索引和数据
+# Or access the index and data separately
 # index = ser.index
-# data = ser.values  # 注意这里使用的是 .values，不是 .array，因为.values 返回的是一个 NumPy 数组，它是 pandas 处理数据的底层结构。
+# data = ser.values  # Note that.values is used here, not.array, because.values returns a NumPy array, which is the underlying structure for pandas to process data.
 #
 # print("Index:", index)
 # print("Data:", data)
